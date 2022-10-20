@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+
+<script>
+    let money = prompt("Введите размер вклада");
+    let percent = prompt("Введите годовой процент");
+    let month = prompt("Введите количество месяцев");
+    let result = money + money * (percent / 100 / 12);
+    for (let n = 0; n <= month; n = n++) {
+        document.write(result);
+    }
+    document.write("за" + month + "месяц(а/ев) ваш доход составит:" + result)
+
+
+
+</script>

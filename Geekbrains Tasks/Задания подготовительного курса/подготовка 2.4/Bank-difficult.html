@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script>
+    function getmoney(money, percent, month) {
+        let result = money;
+        for (let n = 0; n < month; n++) {
+            money = money + (money * (percent / 12));
+        }
+        document.write(" за " + month + " месяц(а/ев) ваш доход составил: " + money + " ,а прибыль по доходу составляет: " + (money - result));
+    }
+    let money = +prompt("Введите размер вклада");
+    let percent = +prompt("Введите годовой процент") / 100;
+    let month = +prompt("Введите количество месяцев");
+    getmoney(money, percent, month);
+    getmoney(money, percent, month * 2);
+    getmoney(money, percent, month * 3);
+
+
+
+
+
+</script>
