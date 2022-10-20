@@ -1,0 +1,37 @@
+<script>
+
+
+    let basket = {
+        item: [
+            ['panties', 500, 3],
+            ['stockings', 300, 4],
+            ['heels', 1500, 2],
+        ],
+
+
+        countBasketPrice() {
+            let result = 0;
+
+            for (let i = 0; i < this.item.length; i++) {
+                result += this.item[i][1] * this.item[i][2];
+            };
+
+            /*let result = this.item[0][1] * this.item[0][2] + this.item[1][1] * this.item[1][2] + this.item[2][1] * this.item[2][2];*/
+            return result;
+
+        },
+    };
+
+
+
+
+
+
+
+
+    console.log(basket.countBasketPrice());
+
+
+
+
+</script>

@@ -1,0 +1,59 @@
+.products{
+    display: flex;
+    padding-left: 15%;
+}
+
+.product-item{
+    margin-left: 15px;
+    border: 2px solid #fadadd;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: #faaadd;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: #faaadd;
+}
+
+.buy-btn{
+    background-color: white;
+    border: 1px solid #faaadd ;
+    margin-left: 37%;
+    margin-bottom: 10px;
+    color: #faaadd;
+    border-radius: 50%;
+    height: 30px;
+
+}
+
+.buy-btn:hover{
+    background-color:black;
+}
+
+.btn-cart{
+    background-color: white;
+    border: none;
+    color: black;
+    border: 1px solid #faaadd;
+    height: 40px;
+    margin-left: 90%;
+}
+
+.btn-cart:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.product-item:hover{
+    border: none;
+}
+
+.pantiesImg{
+    width: 200px;
+    height: 200px;
+}
